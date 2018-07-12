@@ -24,3 +24,8 @@ The output of the binarization is:-<br/><br/>
 
 **Dependencies**
 
+- Python36
+- OTSU Threshold
+- OpenCV
+- Matplotlib
+- Numpy
