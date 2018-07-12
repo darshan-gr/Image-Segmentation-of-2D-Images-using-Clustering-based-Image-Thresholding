@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-imag = cv2.imread('../data/cars.jpg',0)
+imag = cv2.imread('../data/cars4.bmp',0)
 blurred = cv2.GaussianBlur(imag,(5,5),0)
 
 plt.imshow(blurred, 'gray')
