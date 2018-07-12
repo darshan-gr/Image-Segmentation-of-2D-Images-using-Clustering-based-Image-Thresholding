@@ -21,3 +21,6 @@ The histogram for the given image is:-<br/><br/>
 The output of the binarization is:-<br/><br/>
 ![Output](/result/cars4_thresh.jpg)
 <br/><br/>
+
+**Dependencies**
+
