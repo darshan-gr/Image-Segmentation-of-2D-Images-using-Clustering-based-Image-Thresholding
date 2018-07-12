@@ -1,13 +1,9 @@
 # Image-Segmentation-of-2D-Images-using-Clustering-based-Image-Thresholding
 
-**Image Segmentation into foreground and background using Python** 
+**Image Segmentation into foreground and background using OTSU method** 
 
-----------
-**Language used:** Python
 
-----------
-
-**Algorithm:**
+**Steps used in OTSU Algorithm:**
 1. Compute the histogram of pixel intensities vs the number of pixels
 2. Loop through the grayscale intensities from 0 to 255, setting each as a threshold
 3. Compute the weighted mean, and the variance from the function
@@ -17,11 +13,11 @@
 -----------
 **Example implementation**
 The input image is:-<br/><br/>
-![Input Image](/DataInput/coins.jpg)
+![Input Image](/data/cars4.bmp)
 <br/>
 The histogram for the given image is:-<br/><br/>
-![Histogram](/Result/coin_hist.png)
+![Histogram](/result/cars4_hist.png)
 <br/>
 The output of the binarization is:-<br/><br/>
-![Output](/Result/coin_thresh.jpg)
+![Output](/result/cars4_thresh.jpg)
 <br/><br/>
